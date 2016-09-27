@@ -434,6 +434,7 @@ public class RadioPlayerService extends Service implements PlayerCallback {
     public boolean checkSuffix(String streamUrl) {
         if (streamUrl.contains(SUFFIX_PLS) ||
                 streamUrl.contains(SUFFIX_RAM) ||
+                streamUrl.contains(SUFFIX_M3U) ||
                 streamUrl.contains(SUFFIX_WAX))
             return true;
         else
