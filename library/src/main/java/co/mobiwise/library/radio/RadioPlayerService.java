@@ -70,7 +70,7 @@ public class RadioPlayerService extends Service implements PlayerCallback {
     private final String SUFFIX_PLS = ".pls";
     private final String SUFFIX_RAM = ".ram";
     private final String SUFFIX_WAX = ".wax";
-
+    private final String SUFFIX_M3U = ".m3u";
     /**
      * State enum for Radio Player state (IDLE, PLAYING, STOPPED, INTERRUPTED)
      */
